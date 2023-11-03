@@ -1,0 +1,96 @@
+body{
+    background-color: azure;
+}
+#Header nav{
+    display: flex;
+    background-color:#fff;
+}
+#logo{
+    width: 50%;
+    margin-left: 30px;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 300px;
+    font-size: 30px;
+    
+}
+#logo a{
+    color: #fff;
+    text-decoration: none;
+}
+#nav{
+    width: 800px;
+    margin-left: 30%;
+}
+#nav ul{
+    display: flex;
+    text-align: right;
+}
+#nav ul li{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 28px;
+    
+}
+#nav ul li a{
+    text-decoration: none;
+
+}
+#AboutSection{
+    height: 600px;
+    display: flex;
+    margin-top: 30px;
+
+}
+#info{
+    width: 50%;
+    background-color: #fff;
+    margin-left: 300px;
+}
+#social{
+
+    width: 25%;
+    background-color: #fff;
+    height: 200px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+#info p{
+    float: right;
+    margin-left: 10px;
+    font-size: 25px;
+}
+#info img{
+    float: left;
+}
+#info h1{
+    font-size: 30px;
+    text-decoration: underline;
+    color: green;
+    margin-left:20px;
+}
+#social h2{
+    font-size: 30px;
+    text-decoration: underline;
+    color: green;
+    margin-left:20px;
+}
+#IconSocial{
+    margin: 20px;
+}
+.line{
+    height: 10px;
+    background-color: green;
+}
+.copy{
+    background-color: grey;
+    text-align: center;
+}
+.copy h3{
+    padding:  30px;
+    font-size: 18px;
+}
+
