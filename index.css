@@ -1,0 +1,36 @@
+html{
+    background-color: grey;
+}
+#Header,#nav,footer{
+    border:1px solid black;
+    height: 100px;
+    width: 60%;
+    background-color: #fff;
+    margin-left:20% ;
+    margin-top:10px;
+}
+#Header>h3{
+    
+    margin-top: 40px;
+    margin-left: 45%;
+    
+}
+
+section,aside{
+    height: 400px;
+    width: 60%;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+aside{
+    margin-left: 20px;
+    width: 40%;
+}
+#general{
+    display: flex;
+    width: 60%;
+    margin-left:20% ;
+    margin-top:10px;
+}
