@@ -1,0 +1,28 @@
+:root{
+    --neon: cyan;
+}
+
+body{
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    
+}
+button{
+    background-color: var(--neon);
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 20px;
+}
+
+button{
+    box-shadow: 0px 0px 20px var(--neon),0px 0px 20px var(--neon),0px 0px 20px var(--neon),0px 0px 20px var(--neon);
+    
+}
+button:hover{
+    box-shadow: 10px 10px 100px var(--neon),10px 10px 200px var(--neon),10px 10px 300px var(--neon),10px 10px 400px var(--neon),10px 10px 500px var(--neon);
+    transition:all 2s;
+}
