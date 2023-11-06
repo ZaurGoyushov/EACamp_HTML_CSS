@@ -1,6 +1,6 @@
 body{
     background-color: azure;
-    background-image: url(../..//image/concrete_seamless.png);
+    /* background-image: url(../..//image/concrete_seamless.png); */
 }
 #Header{
     position:sticky;
