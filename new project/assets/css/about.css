@@ -1,14 +1,19 @@
 body{
     background-color: azure;
-    background-image: url(../../concrete_seamless.png);
+    background-image: url(../..//image/concrete_seamless.png);
 }
 #Header{
     position:sticky;
     top: 0px;
+    
 }
+
+
 #Header nav{
     display: flex;
     background-color:#fff;
+    align-items: center;
+
 }
 #logo{
     width: 50%;
@@ -29,22 +34,29 @@ body{
 #nav{
     width: 800px;
     margin-left: 30%;
-    
 }
 #nav ul{
     display: flex;
+
     text-align: right;
 }
 #nav ul li{
     text-decoration: none;
     padding: 5px;
-    font-size: 28px;
-    
+   
 }
 #nav ul li a{
     text-decoration: none;
-
+    font-size: 24px;
+    color: #999;
 }
+
+li:not(:last-child)::after{
+    content: " | ";
+    font-size: 24px;
+    color: #999;
+}
+
 #AboutSection{
     /* height: 600px; */
     display: flex;
@@ -104,5 +116,6 @@ body{
 }
 
 footer{
-    padding-top: 30px;
+    padding: 30px 0px;
 }
+

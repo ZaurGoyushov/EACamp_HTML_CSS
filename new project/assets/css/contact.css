@@ -1,0 +1,26 @@
+#info div{
+    padding: 10px;
+}
+
+
+#info div > * {
+    display:block;
+    margin-top:5px;
+    width: 90%;
+}
+#info div > textarea {
+   height: 200px;
+}
+button{
+  background-color: #4aaaa5;
+  color: #fff;
+  width: 15% !important;
+  padding: 5px;
+  font-size: 18px;
+  border: none;
+}
+
+input[type=text]{
+  height: 40px;
+  padding: 0px 5px;
+}

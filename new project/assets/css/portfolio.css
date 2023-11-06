@@ -1,0 +1,15 @@
+#info div{
+    float: left;
+    margin: 10px;
+    position: relative;
+}
+#info img + p{
+    background-color: #4aaaa5;
+    color: #fff;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 0px;
+    text-align: center;
+    padding: 20px;
+    width: 260px;
+}
