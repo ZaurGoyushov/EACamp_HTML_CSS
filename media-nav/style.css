@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+}
+nav{
+    width: 100wh;
+    background-color: #fff;
+    margin: 0px;
+}
+ul{
+    display: flex;
+    gap:90px;
+    justify-content: center;
+}
+li  {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+
+@media(max-width:768px){
+    ul{
+        flex-direction: column;
+        gap:2px;
+        align-items: center;
+    }
+}
