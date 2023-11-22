@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+   background-color: lightgray;
+   width: 100wh;
+   height: 100vh;
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   align-items: center;
+   justify-content: center;
+   
+
+   
+}
+#main div{
+    background-color: #fff;
+    border:1px solid black;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+@media screen and (max-width:768px){
+    #main{
+        background-color: #000;
+        flex-direction: column;
+    }
+    #main div{
+        background-color: red;
+        color:#fff
+    }
+
+}
