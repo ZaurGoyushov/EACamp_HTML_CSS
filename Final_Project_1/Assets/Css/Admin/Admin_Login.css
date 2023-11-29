@@ -1,0 +1,158 @@
+@font-face {
+    font-family:Montserrat;
+    src: url(../../../Font/Montserrat-VariableFont_wght.ttf);
+}
+.adminLoginPage{
+    background-color: #720418 !important;
+    height: 100vh;
+}
+.logo{
+    display: flex;
+    width: 100wh;
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 30px;
+    
+}
+.logo > div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 85px;
+}
+.logo > div > h4 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 10px;
+    margin-top: 10px;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    font-family: Montserrat;
+}
+.logo > div > h4::before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    width: 202px;
+    height: 1px;
+    background-color: #fff;
+}
+.logo > div > h5 {
+    color: #fff;
+    font-size: 13px;
+    line-height: 25.5px;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-family:Montserrat;
+}
+.logo > img{
+    width: 67px;
+    height: 85px;
+}
+main{
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.loginForm{
+    margin-top: 30px;
+    width: 662px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginForm h1{
+    color: black;
+    margin-top: 100px ;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+
+}
+.loginForm input{
+    width: 552.94px;
+    height: 74.54px;
+    border: 1px solid gray;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.loginForm button{
+    width: 552.94px;
+    height: 74.54px;
+    border: 1px solid gray;
+    margin-top: 70px;
+    text-align: center;
+    background-color:#E16A00 ;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 30px;
+    color :#fff;
+}
+
+@media screen and (max-width:678px){
+    .logo > div > h4 {
+        font-size: 12px;
+        line-height: 14px;
+        
+    }
+    .logo > div > h4::before {
+        width: 130px; 
+        top: 20px;
+    }
+    .logo > div > h5 {
+        color: #fff;
+        font-size: 11px;
+        line-height: 18.5px;
+    }
+    .logo > img{
+        width: 57px;
+        height: 75px;
+    }
+    
+    .loginForm{
+        width: 300px;
+    }
+    .loginForm h1{
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .loginForm input{
+        width: 192.94px;
+        height: 34.54px;
+        padding: 10px;
+    }
+    
+    .loginForm button{
+        width: 192.94px;
+        height: 34.54px;
+        padding: 10px;
+        margin-top: 50px;
+    }
+}
+
+@media  screen and (max-height:731px) {
+    .loginForm{
+        height: 400px;
+    }
+    .loginForm h1{
+        margin-top: 30px;
+    }
+    .loginForm input{
+      padding: 20px;
+      height: 50px;
+    }
+    
+    .loginForm button{
+        padding: 20px;
+        height: 60px;
+    }
+}
